@@ -1,0 +1,167 @@
+布尔值
+return
+回调函数
+事件委托 
+事件绑定 ? 
+	给一个元素加用一个事件执行多个函数  
+	jq 默认事件都是绑定的！
+	$('div').on('click',fn);
+	$('div').on('click','p',fn);
+
+	$('div').click();
+	$('div').click();
+
+
+	obj.addEventListener('事件名',执行函数,是否捕获);
+
+	//给移动端加事件的时候 
+	必须用事件绑定加！
+	obj.addEventListener(evName,fn,false)
+-----------------------------
+获取非行间样式
+	
+	. 的
+
+	[] 的  参数
+
+-----------------------------
+git
+	视频 视频反复重听 暂停
+		 练习 
+
+	培养自学能力
+		百度
+			单词 关键字
+		会看视频
+			暂停
+		会看API
+			jq/w3c/js/css/html
+---------------------------------
+git 分布式代码管理工具
+	
+svn 集中式代码管理工具
+
+团队配合 
+
+--------------------------
+git 用指令执行操作！
+	linux 系统
+
+	安装git
+		重启电脑
+
+	ls 			查看当前目录文件列表
+	cd 文件夹名 进入文件夹
+	cd ..  		返回上一级
+	touch 文件  创建文件
+	编辑文件：
+		1. vi 文件名
+		2. i  编辑状态
+		3. esc 退出编辑状态
+		4. :wq 保存并退出
+	cd d:      切换盘符
+	rm 文件名  删除文件
+	clear      清屏
+	mkdir      新建文件夹
+	rmdir      删除文件夹
+	cat	   	   查看文件
+-----------------------------------
+git 仓库  保存文件
+	
+	git status 查看git状态
+
+
+	新建文件 -> 缓存区
+	git add 文件名
+
+	git add . 添加所有文件
+
+	缓存区 -> 提交到共享仓库
+	git.commit -m '提交内容'
+
+
+	提交到线上
+	git push 
+
+	线上 github.com
+
+	注册账号
+
+	秘钥的作用 是为了连接本机电脑和github平台身份验证
+
+	生成秘钥的步骤：
+
+	1. 生成秘钥：ssh-keygen -t rsa -C '13910561096@163.com'
+	2. 将秘钥放到github上
+		1. 点击头像 -> settings ->SSH and GPG keys -> add key
+
+	3. 配置一下我是谁
+	4.   git config -l 查看此时配置文件
+
+         git config --global user.email “xx@xx.com”
+         git config --global user.name “xxxx”
+
+    私有秘钥/共有秘钥
+
+    线上仓库地址
+    	git@github.com:cris-zhibao/2017-7-20.git
+
+    	下载东西
+    		git clone 线上仓库地址
+
+    		cd 进到文件夹 
+
+    		git add .
+
+    		git commit -m '内容'
+
+    		git push
+-------------------------------------
+注册
+验证邮箱
+
+本地生成秘钥  将秘钥同步到github上
+本地配置邮箱和用户名
+
+
+创建git项目 
+
+	1. 去github new 项目
+
+	2. clone 项目仓库地址
+
+	3. git clone 仓库地址
+
+	4. cd 仓库文件夹
+
+	5. git add .
+
+	6. git commit -m '内容'
+
+	7. git push
+
+	8. 查看线上文件
+
+--------------------------------------------
+明天早上 自己的项目 上传到github上
+
+===========================================
+码云：
+	https://git.oschina.net/
+
+新浪网
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+
